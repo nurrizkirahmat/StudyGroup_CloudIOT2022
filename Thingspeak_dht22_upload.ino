@@ -14,14 +14,14 @@ uint8_t temprature_sens_read();
 #include "ThingSpeak.h"
 
 //-----netwrok credentials
-char* ssid = "Wokwi-GUEST"; //enter SSID
+char* ssid = ""; //enter SSID
 char* passphrase = ""; // enter the password
 WiFiServer server(80);
 WiFiClient client;
 
 //-----ThingSpeak channel details
-unsigned long myChannelNumber = 1976471;
-const char * myWriteAPIKey = "HSK3MPM71LFUSK24";
+unsigned long myChannelNumber = XXXYYYZ; //Enter Channel ID
+const char * myWriteAPIKey = ""; //Enter Write API Key (16 digit)
 
 //----- Timer variables
 unsigned long lastTime = 0;
