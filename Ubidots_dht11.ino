@@ -10,11 +10,11 @@ DHT dht(DHTpin,DHTTYPE);
  * Define Constants
  ****************************************/
 const char *UBIDOTS_TOKEN = "BBFF-wGV4KnaDVCba4zsp4yWBujB9vKDb8h";  // Put here your Ubidots TOKEN
-const char *WIFI_SSID = "Captain";      // Put here your Wi-Fi SSID
-const char *WIFI_PASS = "nurrizki1234";      // Put here your Wi-Fi password
-const char *DEVICE_LABEL = "ruangtamuku";   // Put here your Device label to which data  will be published
-const char *VARIABLE_LABEL_1 = "suhu"; // Put here your Variable label to which data  will be published
-char const *VARIABLE_LABEL_2 = "kelembapan";
+const char *WIFI_SSID = "";      // Put here your Wi-Fi SSID
+const char *WIFI_PASS = "";      // Put here your Wi-Fi password
+const char *DEVICE_LABEL = "";   // Put here your Device label to which data  will be published
+const char *VARIABLE_LABEL_1 = ""; // Put here your Variable label to which data  will be published
+char const *VARIABLE_LABEL_2 = "";
 const int PUBLISH_FREQUENCY = 2000; // Update rate in milliseconds
 
 unsigned long timer;
